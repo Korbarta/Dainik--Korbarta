@@ -1,0 +1,6 @@
+{
+  "name": "Dainik Korbarta - দৈনিক করবার্তা",
+  "description": "বাংলাদেশের শীর্ষস্থানীয় ডিজিটাল সংবাদপত্র ও অনলাইন নিউজ পোর্টাল। সর্বশেষ জাতীয়, রাজনীতি, আন্তর্জাতিক, অর্থনীতি, খেলাধুলা ও বিনোদনের খবর।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
