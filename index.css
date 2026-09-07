@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Hind Siliguri', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #ffffff;
+    color: #0f172a;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Hind Siliguri', 'Noto Serif Bengali', serif;
+    letter-spacing: -0.01em;
+  }
+}
+
+.font-serif-bangla {
+  font-family: 'Noto Serif Bengali', Georgia, serif;
+}
+
+.font-sans-bangla {
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+/* Editorial broadsheet column divider */
+.news-border-r {
+  border-right: 1px solid #e2e8f0;
+}
+
+.news-border-b {
+  border-bottom: 1px solid #e2e8f0;
+}
+
+/* Custom scrollbar for tickers and overflow */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f8fafc;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+@media print {
+  header, footer, .no-print {
+    display: none !important;
+  }
+  body {
+    background: white;
+    color: black;
+  }
+}
